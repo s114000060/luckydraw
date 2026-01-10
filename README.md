@@ -1,20 +1,51 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# HR Magic Toolbox (Lucky Draw)
 
-# Run and deploy your AI Studio app
+一個基於 React + Vite + TypeScript 開發的智慧 HR 工具箱，支援抽獎與參與者管理。
 
-This contains everything you need to run your app locally.
+## 🚀 快速開始
 
-View your app in AI Studio: https://ai.studio/apps/drive/1LXCOZapfKFA6aJDxtQj-Hs1OV9nGm28v
+### 本地開發
 
-## Run Locally
+1.  **安裝依賴**
+    ```bash
+    npm install
+    ```
 
-**Prerequisites:**  Node.js
+2.  **啟動開發伺服器**
+    ```bash
+    npm run dev
+    ```
 
+3.  **編譯專案**
+    ```bash
+    npm run build
+    ```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🛠️ 技術棧
+
+- **前端框架**: React 19
+- **構建工具**: Vite
+- **語言**: TypeScript
+- **樣式**: Tailwind CSS
+- **圖標**: Lucide React
+- **人工智慧**: Google Gemini AI (可選)
+
+## 📦 部署
+
+本專案已配置 GitHub Actions，當程式碼推送到 `main` 分支時，會自動部署到 GitHub Pages。
+
+若要手動部署，可執行：
+```bash
+npm run deploy
+```
+
+## 📂 專案結構
+
+- `src/components`: UI 元件
+- `src/services`: 服務邏輯（如 AI 整合）
+- `src/types.ts`: TypeScript 型別定義
+- `vite.config.ts`: Vite 設定檔
+
+## 📝 授權
+
+MIT License
